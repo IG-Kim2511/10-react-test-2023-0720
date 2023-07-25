@@ -1,5 +1,8 @@
 import FeaturedProducts from "./test-small/featured";
+import Excel3 from "./test/Excel3";
 
+import ParseExcel from "./test/ParseExcel";
+import ParseExcel2 from "./test/ParseExcel2";
 
 
 function App() {
@@ -18,6 +21,14 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <h1>
+      👉components</h1>
+
+    <ParseExcel/>
+    <ParseExcel2/>
+
+    <Excel3/>
 
       <FeaturedProducts/>
     </div>
